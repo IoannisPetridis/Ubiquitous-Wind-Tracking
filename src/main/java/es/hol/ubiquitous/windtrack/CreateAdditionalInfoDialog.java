@@ -1,0 +1,27 @@
+package es.hol.ubiquitous.windtrack;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.DialogInterface;
+import android.os.Bundle;
+
+/**
+ * Created by johna_000 on 28/5/2015.
+ */
+public class CreateAdditionalInfoDialog extends DialogFragment {
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(R.string.additional_info);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        builder.setCancelable(false);
+        // Create the AlertDialog object and return it
+        return builder.create();
+    }
+}
