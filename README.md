@@ -35,6 +35,11 @@ The application's functionality, relies greatly on an external sensor component 
 In the starting page of the application, the user is prompted to enable the Internet data / Wi-Fi and the GPS sensor. Afterwards, the user can click on the buttons "Info" and "About Us" in order to view information regarding this application. By choosing the "Measure Now" button, the user is prompted to connect the weatherflow sensor to his android device if he hasn't done so until now. After connecting it, the user must hold the device high so that the anemometer is rotating accordingly to the wind. Thus the application measures the wind for a few seconds. After this process is completed, the user is informed about the wind velocity that has been measured these past seconds, and is prompted to optionally fill in some data. By pressing the "Send Data" button, the data are checked and afterwards stored in my Database. Should some constraint checks fail, the data aren't stored in the Database and an error message is produced within the application. Thus the measurement is over and the application goes to its starting page.
 
 
+##Application Website
+
+The measurements that were made with the android application, are accessible through http://ubiquitous.hol.es . The website provides ample information about the project and also an API with detailed description so that anyone can gain access to the recorded measurements of our Database, in xml .
+
+
 ##The Reasons
 
 You might ask, why should someone use this application. The data that are gathered through the measurements can be processed later on and help environmental researches on wind. Crowd-sourcing the information on wind data, greatly increases the data gathering ratio, so the more data we have, the better conclusions we can draw on them.
