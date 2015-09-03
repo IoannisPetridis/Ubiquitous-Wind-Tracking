@@ -45,7 +45,7 @@ The data that are handled with this application are shown above. Because some of
 
 ##Contact info
 
-For information regarding the application and the use of the data, don't hesitate to contact me on mrjohnpetridis@gmail.com, Subject: "Ubiquitous-Wind-Tracking info"
+For information regarding the application and the use of the data, don't hesitate to contact me on mrjohnpetridis@gmail.com, Subject: "Ubiquitous Wind-Tracking info"
 
 
 ##Terms of Use
